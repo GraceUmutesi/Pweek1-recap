@@ -23,3 +23,6 @@ class User:
         delete_user method deletes a saved user 
         '''
         User.users_list.remove(self)
+    
+
+    

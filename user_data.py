@@ -1,6 +1,7 @@
 #!/usr/bin/env python3.9
 from user import User
 
+
 #This are sample object to use while testing functions
 dummy_user1 = User("001","Grace","Umutesi","grace@gmail.com")
 dummy_user2 = User("002","gaga","Umutesi","grace@gmail.com")
@@ -61,3 +62,8 @@ def delete_user_fromfile(sample_user):
     except FileNotFoundError:
         return None
 
+
+
+# save_user_tofile(dummy_user1)
+# save_user_tofile(dummy_user2)
+delete_user_fromfile(dummy_user1)

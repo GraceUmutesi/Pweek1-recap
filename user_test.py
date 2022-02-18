@@ -24,6 +24,7 @@ class TestUser(unittest.TestCase):
          the user list
         '''
         self.new_user.save_user() # saving the new user
+        
         self.assertEqual(len(User.users_list),1)
     def test_save_multiple_users(self):
         '''
